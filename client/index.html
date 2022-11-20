@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" ng-app>
+  <head>
+    <title>FCC Timestamp Microservice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>FCC API : Timestamp Microservice</h1><br>
+        
+      </div>
+      <h3>Example usage:</h3>
+      <code>https://timestamp-microservice.c9users.io/December%2015,%202015</code><br>
+      <code>https://timestamp-microservice.c9users.io/1450137600</code>
+      <h3>Example output:</h3>
+      <code>
+          {
+            "unix": 1450137600,
+            "natural": "December 15, 2015"
+          }
+      </code>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/angular.min.js"></script>
+  </body>
+</html>
